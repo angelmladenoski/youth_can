@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif !important;
+}
+
+.fs-48 {
+  font-size: 3em;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* ------COLOR PALLET----- */
+.bg-dark-blue {
+  background-color: #192b6c;
+}
+
+.bg-light-gray {
+  background-color: #e4e4e4 !important;
+}
+
+.text-dark-blue {
+  color: #192b6c;
+}
+
+/* -----BUTTON----- */
+.button {
+  text-decoration: none;
+  font-weight: bold;
+  padding: 15px 20px;
+  border: 0;
+  border-radius: 10px 0 10px 0;
+  font-size: 1em;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  display: inline-block;
+  position: relative;
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+}
+
+.button:hover {
+  background-color: #0072ba;
+  color: #000000 !important;
+  transform: scale(1.1);
+}
+
+/* -----BANNER----- */
+.banner {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 1),
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0)
+    ),
+    url("./images/banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-content {
+  position: relative;
+  z-index: 2;
+  max-width: 450px;
+}
+
+.banner-content h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.banner-content p {
+  margin-bottom: 0;
+}
+
+.logo {
+  display: inline-block;
+  height: 35px;
+  margin-inline: 0.5em;
+  margin-bottom: 2em;
+}
+
+@media screen and (max-width: 768px) {
+  .banner-content h1 {
+    font-size: 2em;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .banner {
+    background-attachment: unset;
+    background-size: auto;
+  }
+
+  .banner-content h1 {
+    font-size: 3em;
+    width: 80%;
+  }
+
+  .banner-content p {
+    text-align: start;
+    width: 70%;
+  }
+}
+
+/* -----ABOUT US----- */
+.image-content {
+  border-radius: 30px;
+}
+
+/* -----MISSION AND VISION----- */
+.card {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  border-radius: 20px !important;
+  border: none !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* -----TESTIMONIALS----- */
+.testimonial-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.carousel-indicators {
+  position: absolute;
+  top: 100%;
+  bottom: 0%;
+}
+
+/* -----OUR TEAM SECTION----- */
+.team-member {
+  text-align: center;
+}
+
+.team-member img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  margin-bottom: 1em;
+}
+
+/* -----ACTIVITIES----- */
+.custom-container {
+  width: 60%;
+  margin-inline: auto;
+}
+
+.gallery img {
+  height: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1440px) {
+  .ratio {
+    aspect-ratio: 1 / 1;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .ratio {
+    aspect-ratio: 3 / 4;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .custom-container {
+    width: 95%;
+    margin-inline: auto;
+  }
+
+  .ratio {
+    aspect-ratio: 4 / 3;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .ratio {
+    aspect-ratio: 21 / 9;
+  }
+}
+
+/* -----FOOTER SECTION----- */
+.social-icons li {
+  padding: 10px 15px;
+  background-color: #bcb2b2;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+
+.social-icons li a {
+  color: #000000;
+}
+
+.social-icons li a:hover {
+  color: #0072ba;
+}
+
+.form-control {
+  border: 1px solid !important;
+}
+
+.form-btn {
+  padding: 20px 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ffffff;
+  width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s ease-out, background-color 0.3s ease-out;
+}
+
+.form-btn:hover {
+  background-color: #0072ba;
+  color: #000000 !important;
+}
+
+.feedback {
+  color: #ff0000;
+  font-size: 1em;
+}
