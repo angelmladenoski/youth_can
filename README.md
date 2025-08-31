@@ -1,139 +1,125 @@
-# Project01_AngelMladenoski_FE21
+# Project01-Youth-Can
 
-## Getting started
+# Youth Can - Project1
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+## Table of Contents
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+<details>
+  <summary>Click to expand</summary>
+  - 📜 Project Description <br>
+  - 📖  Project Purpose <br>
+  -  ✨ Features <br>
+  - 🎥  Demo <br>
+  - ⚙️  Technologies Used <br>
+  - 🔨  Installation <br>
+  -  🚀 Usage <br>
+  -  💻 Development Process <br>
+  -  📝 Credits <br>
+  - 📞  Contact <br>
+</details>
+---
 
-## Add your files
+## Project Description 📜
 
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
-
-```
-cd existing_repo
-git remote add origin https://git.brainster.co/Angel.Mladenoski-FE21/project01_angelmladenoski_fe21.git
-git branch -M main
-git push -uf origin main
-```
-
-## Integrate with your tools
-
-- [ ] [Set up project integrations](https://git.brainster.co/Angel.Mladenoski-FE21/project01_angelmladenoski_fe21/-/settings/integrations)
-
-## Collaborate with your team
-
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Automatically merge when pipeline succeeds](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
-
-## Test and Deploy
-
-Use the built-in continuous integration in GitLab.
-
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing(SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
+**Youth Can** is a landing page designed to promote a youth empowerment initiative. The site provides a clear, engaging introduction to the platform’s goals, featuring different. This project focuses on delivering a clean, professional, and fully responsive design, ensuring an optimal experience across all devices.
 
 ---
 
-# Editing this README
+## Project Purpose 📖
 
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thank you to [makeareadme.com](https://www.makeareadme.com/) for this template.
+The purpose of **Youth Can** is to create an engaging and professional landing page to showcase the skills I’ve learned during the first third of my front-end academy at **Brainster**. This project not only aims to promote a youth empowerment initiative but also serves as a demonstration of my ability to implement responsive design, form validation, and interactive features using modern web technologies like **Sass**, **CSS**, **HTML**, and **Bootstrap**. It was built to display my growth as a front-end developer and put into practice the knowledge gained so far in the program.
 
-## Suggestions for a good README
+---
 
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
+## Features ✨
 
-## Name
+- 🎨 **Responsive Design**: The page adjusts perfectly to any screen size, ensuring it looks great on mobile, tablet, and desktop devices.
+- 🖌️ **Element Animations**: Animations are applied to elements as they are scrolled into view, enhancing the user experience.(the animation-timeline property is supported only on Chrome, Edge, Opera, Brave Browser, Chrome(for Android), Samsung Internet, Opera(mobile) and Android Browser, so if you're viewing the site from another browser, you won't see the animations)
+- 📚 **Testimonial Carousel**: A dynamic carousel displaying testimonials from users made with **Bootstrap**.
+- 📝 **Form Validation**: Simple and effective form validation using **JavaScript** for user input.
+- 🛠️ **Sass and Bootstrap**: Used **Sass** for efficient styling and organized code and **Bootstrap** for carousel implementation.
+- 🌍 **Fully Accessible**: Ensuring the landing page is accessible and user-friendly across various devices and browsers.
 
-Association of citizens Youth Can / Здружение на граѓани Младите можат
+---
 
-## Description
+## Technologies Used ⚙️
 
-Овој проект претставува почетна страница (Homepage) на младинска организација Младите можат (Youth Can). Страницата е дизајнирана за да ги информира посетителите за мисијата и визијата на организацијата, кои се нејзините програми, тимот кој стои позади неа и дава контакт информации.
+- ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+- ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+- ![Sass](https://img.shields.io/badge/Sass-CC6699?style=flat-square&logo=sass&logoColor=white)
+- ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=flat-square&logo=bootstrap&logoColor=white)
+- ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+- ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
-Краток опис на сите делови од страницата:
+---
 
-1. Banner section
+## Demo 🎥
 
-- Повик до младите да станат активни, способни и одговорни граѓани.
-- Копче за да се придружиш на организацијата.
+Check out the live demo of the project hosted on **Netlify**:
 
-2. About Us / Mission and Vision section (Кои сме ние? / Мисија и визија)
+<a href="https://youthcan-brainster-project01.netlify.app/" target="_blank">Live Demo</a>
 
-- Краток опис на органиацијата, нејзиното формирање и постигнувања.
-- Информации за визијата и мисијата на организацијата.
+Or see the pictures below for a quick preview of the core features:
 
-3. Testimonials (Искуств на младите што можат)
+<a href="https://i.imghippo.com/files/zher2006uKw.png" target="_blank">Desktop Version</a>
+<br>
+<a href="https://i.imghippo.com/files/ptJ7928.png" target="_blank">Tablet Version</a>
+<br>
+<a href="https://i.imghippo.com/files/MoL7038oCI.png" target="_blank">Mobile Version</a>
 
-- Цитати од учесници кои ги споделуваат своите позитивни искуства со програмите на организацијата.
+---
 
-4. Our programs (Нашите програми)
+## Installation 🔨
 
-- Ментално здравје и развој.
-- Волонтерство и активизам.
-- Развој на кариера.
+To run this project locally, follow these steps:
 
-5. Our team (Нашиот тим)
+### Steps to Install
 
-- Фотографии и имиња на членовите на тимот заедно со нивните улоги.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/makedonkatochevska/youth_can.git
+   ```
+2. Open index.html in your preferred browser to view the landing page.
 
-6. Activities (Активности)
+---
 
-- Колекција на слики кои прикажуваат различни активности и настани.
+## Usage 🚀
 
-7. Contact Us (Контактирај не!)
+Once set up, you can access **Youth Can** through your local browser. You can interact with the page's features, such as:
 
-- Контакт информации вклучувајќи телефонски број, емаил адреси, физичка адреса и работно време.
-- Контакт форма за посетителите да можат директно да испратат порака од веб-страницата.
-- Икони за социјалните мрежи за дополнителни начини за поврзување со организацијата.
+- Navigating the testimonial carousel.
+- Submitting the form with real-time validation.
+- Enjoying smooth animations as elements scroll into view.
+- Exploring the fully responsive design across various devices.
 
-## Installation
+---
 
-За инсталација на проектот:
-Клонирај го репото во терминал со команда:
-git clone https://git.brainster.co/Angel.Mladenoski-FE21/project01_angelmladenoski_fe21.git .
+## Development Process 💻
 
-## Usage
+- **Git Workflow**:
 
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
+  - I created a new repository for this project and set up the basic structure.
+  - For each section and feature (like the testimonial carousel, form validation, and animations), I created a separate branch, allowing me to work on them independently.
+  - Once each feature was complete and tested, I merged them into the `dev` branch.
+  - After confirming everything was working, I merged the `dev` branch into the `main` branch for the final release.
 
-## Support
+- **Version Control with Git**:
+  - I used **Git** for version control to manage the changes throughout the development process.
+  - Frequent commits were made to track progress, and **GitLab** was used for hosting and collaboration.
 
-За помош околу проектот може да ме контактирате на:
+---
 
-1. email: angel.mladenoski@gmail.com
-2. gitlab: @Angel.Mladenoski-FE21
-3. RocketChat: Angel.Mladenoski-FE21
+## Credits 📝
 
-## Roadmap
+- This project is a real project for the **Младите Можат** organization.
+- Icons are provided by [Font Awesome](https://fontawesome.com/).
+- Special thanks to the mentors at **Brainster** for the knowledge and guidance that helped me get to where I am today.
 
-Поголема оптимизација и примена на современи стилови во кодирањето. Надоградба на страницата со нови начини на кодирање и зголемување на нејзината функционалност со нови нтехнологии.
+---
 
-## Contributing
+## Contact 📞
 
-Доколку сакаш да учествуваш во надоградба или доработка на овој проект следи ги следниве чекори:
-
-1. Клонирај го репото со git clone
-2. Направи нова гранка со git checkout -b feature-branch
-3. Комитирај ги промените со git commit -m "added new features"
-4. Прикачи ја гранката со git push -u origin feature-branch
-5. Направи Merge request
-
-## Authors and acknowledgment
-
-Изработил: Ангел Младеноски
-
-## License
-
-For open source projects, say how it is licensed.
-
-## Project status
-
-Овој проект моментално е завршен со можност за надоградба и развој во иднина со подобрување на неговиот стил и функционалност.
+📫 You can reach me through email at [angel.mladensoki@gmail.com](mailto:angel.mladenoski@gmail.com)
+or
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/angel-mladenoski-46a27330a/)
+[![Static Badge](https://img.shields.io/badge/GitHub-white?style=flat&logo=github&logoColor=black&logoSize=auto&labelColor=white&color=white&cacheSeconds=3600&link=https%3A%2F%2Fgithub.com%2Fmakedonkatochevska)](https://github.com/angelmladenoski)
