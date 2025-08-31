@@ -4,26 +4,26 @@
 
 <details>
   <summary>Click to expand</summary>
-  - 📜 Project Description <br>
-  - 📖  Project Purpose <br>
-  -  ✨ Features <br>
-  - 🎥  Demo <br>
-  - ⚙️  Technologies Used <br>
-  - 🔨  Installation <br>
-  -  🚀 Usage <br>
-  -  💻 Development Process <br>
-  -  📝 Credits <br>
-  - 📞  Contact <br>
+  - Project Description <br>
+  - Project Purpose <br>
+  - Features <br>
+  - Demo <br>
+  - Technologies Used <br>
+  - Installation <br>
+  - Usage <br>
+  - Development Process <br>
+  - Credits <br>
+  - Contact <br>
 </details>
 ---
 
-## Project Description 📜
+## Project Description
 
 **Youth Can** is a landing page for a youth empowerment initiative, crafted to introduce the platform's goals in a clear and engaging way. The project focuses on a clean, professional, and fully responsive design to ensure an optimal user experience across all devices.
 
 ---
 
-## Project Purpose 📖
+## Project Purpose
 
 For my first big project at the **Brainster** front-end academy, I built Youth Can. This landing page isn't just about promoting a youth empowerment initiative; it’s a direct reflection of what I've learned. It gave me a chance to build a professional, fully responsive site from scratch, incorporating things like form validation and interactive elements. I used a stack of modern web technologies like **HTML**, **CSS** and **Bootstrap** to get it done, and it really shows my progress and what I’m capable of after just the first part of the program.
 
@@ -39,7 +39,7 @@ For my first big project at the **Brainster** front-end academy, I built Youth C
 
 ---
 
-## Technologies Used ⚙️
+## Technologies Used
 
 - ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 - ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
@@ -101,7 +101,7 @@ For this project, I relied on **Git** for version control to effectively manage 
 
 ---
 
-## Credits 📝
+## Credits
 
 - This project is a real project for the **Младите Можат** organization.
 - Icons are provided by [Font Awesome](https://fontawesome.com/).
@@ -109,9 +109,9 @@ For this project, I relied on **Git** for version control to effectively manage 
 
 ---
 
-## Contact 📞
+## Contact
 
-📫 You can reach me through email at [angel.mladensoki@gmail.com](mailto:angel.mladenoski@gmail.com)
+📫 You can reach me through email at [angel.mladenoski@gmail.com](mailto:angel.mladenoski@gmail.com)
 or
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/angel-mladenoski-46a27330a/)
 [![Static Badge](https://img.shields.io/badge/GitHub-white?style=flat&logo=github&logoColor=black&logoSize=auto&labelColor=white&color=white&cacheSeconds=3600&link=https%3A%2F%2Fgithub.com%2Fmakedonkatochevska)](https://github.com/angelmladenoski)
