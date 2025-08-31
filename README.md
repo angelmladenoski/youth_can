@@ -53,7 +53,7 @@ For my first big project at the **Brainster** front-end academy, I built Youth C
 
 You can explore the live demo of Youth Can on **Netlify** to see the site in action.
 
-<a href="https://youthcan-brainster-project01.netlify.app/" target="_blank">Live Demo</a>
+<a href="https://youthcanangelmladenski.netlify.app/" target="_blank">Live Demo</a>
 
 Or, get a quick preview of the design on different devices by checking out the images below:
 
