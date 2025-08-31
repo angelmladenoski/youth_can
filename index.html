@@ -465,7 +465,7 @@
               <h4 class="card-title fw-bold">Филип</h4>
               <h4 class="card-title fw-bold">Ивковски</h4>
               <p class="mb-0">
-                <small>Пргфрамски координатор за ментално здравје</small>
+                <small>Програмски координатор за ментално здравје</small>
               </p>
             </div>
           </div>
@@ -606,7 +606,6 @@
               <input
                 type="text"
                 id="nameInput"
-                oninput="validateNameInput()"
                 class="form-control mb-lg-3 mb-2"
                 placeholder="Внесете го вашето име" />
               <span id="nameFeedback" class="feedback"></span>
@@ -614,14 +613,12 @@
               <input
                 type="email"
                 id="emailInput"
-                oninput="validateEmailInput()"
                 class="form-control mb-lg-3 mb-2"
                 placeholder="Внеси е-маил" />
               <span id="emailFeedback" class="feedback"></span>
 
               <textarea
                 id="messageInput"
-                oninput="validateMessageInput()"
                 class="form-control mb-lg-3 mb-2"
                 rows="5"
                 placeholder="Напиши порака"></textarea>
@@ -641,48 +638,8 @@
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"></script>
-    <script>
-      function validateNameInput() {
-        const nameInput = document.getElementById("nameInput").value.trim();
-        const feedbackElement = document.getElementById("nameFeedback");
 
-        if (nameInput === "") {
-          feedbackElement.textContent = "Името е задолжително.";
-        } else if (nameInput.length < 3) {
-          feedbackElement.textContent =
-            "Името мора да содржи најмалку 3 карактери.";
-        } else {
-          feedbackElement.textContent = "";
-        }
-      }
-
-      function validateEmailInput() {
-        const emailInput = document.getElementById("emailInput").value.trim();
-        const feedbackElement = document.getElementById("emailFeedback");
-        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-
-        if (emailRegex.test(emailInput)) {
-          feedbackElement.textContent = "";
-        } else {
-          feedbackElement.textContent = "Внесете валидна е-маил адреса.";
-        }
-      }
-
-      function validateMessageInput() {
-        const messageInput = document
-          .getElementById("messageInput")
-          .value.trim();
-        const feedbackElement = document.getElementById("messageFeedback");
-
-        if (messageInput === "") {
-          feedbackElement.textContent = "Пораката е задолжителна.";
-        } else if (messageInput.length < 10) {
-          feedbackElement.textContent =
-            "Пораката мора да содржи најмалку 10 карактери.";
-        } else {
-          feedbackElement.textContent = "";
-        }
-      }
-    </script>
+    <!-- JS VALIDATION OF THE FORM -->
+    <script src="./script.js"></script>
   </body>
 </html>
